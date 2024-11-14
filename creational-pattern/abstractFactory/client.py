@@ -1,5 +1,5 @@
 from concreteCreator import BeefMealFactory, ChikenMealFactory
-from server import Meal
+from director import Meal
 
 beefFactory = BeefMealFactory()
 chickenFactory = ChikenMealFactory()
